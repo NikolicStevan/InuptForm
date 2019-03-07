@@ -1,0 +1,103 @@
+
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    display: inline-block;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#checkPassword,
+#checkPin,
+#checkEmail {
+    margin-left: 5px;
+    padding-left: 5px;
+    color: red;
+}
+
+.eye1,
+.eye2 {
+    opacity: 0.4;
+}
+
+
+.eye1:hover,
+.eye2:hover {
+ cursor: pointer;
+}
+
+.eye1Clicked,
+.eye2Clicked {
+    opacity: 1;
+}
+
+.form {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#date-of-birth:hover,
+#payment:hover {
+    cursor: pointer;
+}
+
+
+
+
+/* Styles for home.html */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgb(182, 218, 241);
+  }
+
+  th {
+      background-color: rgb(81, 156, 243);
+  }
+
+
+  #search {
+      border: none;
+      background-color: rgb(182, 218, 241);
+      box-shadow: none; 
+      text-align: center; 
+      width: 100%;  
+  }
+
+  #search:focus {
+      outline: none;
+  }
+
+
+
+  .search {
+    background-color: rgb(182, 218, 241);      
+  }
+
+  .search:hover
+  #search:hover {
+    cursor: pointer;
+  }
